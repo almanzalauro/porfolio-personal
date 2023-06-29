@@ -1,0 +1,28 @@
+.contenedor-view{
+    padding: 5px 10px;
+}
+
+.contenedor-view #title-content{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-view #title-content .more-projects button{
+    padding:5px 10px;
+    border: none;
+    background-color:#decdf5;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+.contenedor-view #title-content .more-projects button:hover{
+    background-color:#c1afda;
+}
+.contenedor-view .projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    gap:20px;
+}
