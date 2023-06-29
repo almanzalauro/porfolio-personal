@@ -7,7 +7,7 @@ function NavBar() {
             <div className="navbar-container">
 
                 <div className="logo">
-                    <p>Almanza Lauro</p>
+                <Link to="/" className="link-home"> Almanza Lauro</Link>
                 </div>
 
                 <div className="navbar">

@@ -1,0 +1,29 @@
+.footer-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.footer-content .social-links ul{
+    display:flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content .social-links ul a{
+    color: #f8f1ff;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+    padding-bottom: 4px;
+    font-size: 1.5rem;
+}
+
+.footer-content .social-links ul a:hover{
+    color:#b4aabe;
+}
+
+
+
+

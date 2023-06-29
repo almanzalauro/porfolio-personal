@@ -1,5 +1,15 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
-body{
-    margin:0;
-    padding: 0;
+#root {
+  height: 100%;
+  overflow: auto; /* Agrega desplazamiento si el contenido supera la altura */
+}
+
+.App {
+  min-height: 100%; /* Asegura que el contenedor tenga como mínimo el 100% de la altura */
 }
