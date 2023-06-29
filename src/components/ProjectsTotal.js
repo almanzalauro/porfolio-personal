@@ -1,31 +1,35 @@
-import projectstotal from "../Data/projects.json";
-import ProjectItem from "./ProjectItem";
+import projectstotal from '../Data/projects.json';
+import ProjectItem from './ProjectItem';
+import { Link } from 'react-router-dom';
 
-import "./projects.css";
+import './css/projects.css';
 
 function ProjectsTotal() {
-    return (
-        <div className="contenedor-view">
-            <div id="title-content">
-                <span className="title">
-                    <h2>Más projectos</h2>
-                </span>
-            </div>
+  return (
+    <div className="contenedor-view">
+      <div id="title-content">
+        <span className="title">
+          <h2>Más projectos</h2>
+        </span>
+        <span className="more-projects">
+            <Link to='/'><button>Volver</button></Link>
+        </span>
+      </div>
 
-            <div className="projects">
-                {projectstotal.map((item, index) => (
-                    <ProjectItem
-                        key={index}
-                        title={item.title}
-                        img={item.img}
-                        description={item.description}
-                        deploy={item.deploy}
-                        github={item.code}
-                    />
-                ))}
-            </div>
-        </div>
-    );
+      <div className="projects">
+        {projectstotal.map((item, index) => (
+          <ProjectItem
+            key={index}
+            title={item.title}
+            img={item.img}
+            description={item.description}
+            deploy={item.deploy}
+            github={item.code}
+          />
+        ))}
+      </div>
+    </div>
+  );
 }
 
 export default ProjectsTotal;

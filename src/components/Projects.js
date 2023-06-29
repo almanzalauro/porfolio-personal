@@ -2,7 +2,7 @@ import projects from '../Data/projectsview.json';
 import ProjectItem from './ProjectItem';
 import { Link } from 'react-router-dom';
 
-import './projects.css';
+import './css/projects.css';
 
 function Projects() {
   return (

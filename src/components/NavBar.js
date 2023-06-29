@@ -1,16 +1,22 @@
-function NavBar(){
-    return(
-        <div className="navbar">
+import './css/navbar.css';
+import { Link } from 'react-router-dom';
+
+function NavBar() {
+    return (
+        <div className="contenedor-view">
             <div className="navbar-container">
-                <div className="Logo">
-                    <img src='' alt="Logo"/>
+
+                <div className="logo">
+                    <p>Almanza Lauro</p>
                 </div>
+
                 <div className="navbar">
                     <ul>
-                        <li>Inicio</li>
-                        <li>Sobre Mi</li>
-                        <li>Estudios</li>
-                        <li>Contacto</li>
+                        <Link to="/" className="link-home"><li><i className="fas fa-home"></i> Inicio</li></Link>
+                        <li><i className="fas fa-user"></i> Sobre Mi</li>
+                        <li><i className="fas fa-graduation-cap"></i> Estudios</li>
+                        <li><i className="fas fa-folder-open"></i> Proyectos</li>
+                        <li><i className="fas fa-envelope"></i> Contacto</li>
                     </ul>
                 </div>
             </div>
