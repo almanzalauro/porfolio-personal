@@ -1,0 +1,87 @@
+.aboutme .aboutme-container .aboutme-info {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.aboutme .aboutme-container .aboutme-info .aboutme-info-img {
+    width: 300px;
+    /* Ajusta el ancho del contenedor según tus necesidades */
+    height: 300px;
+    /* Ajusta la altura del contenedor según tus necesidades */
+    border-radius: 50%;
+    overflow: hidden;
+    margin:auto;
+}
+
+.aboutme .aboutme-container .aboutme-info .aboutme-info-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.aboutme .aboutme-container .aboutme-info .aboutme-info-description{
+    width: 60%;
+    margin:auto auto;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 350px ) and (max-width: 425px){
+    .aboutme {
+        max-width: 100vw;
+    }
+    .aboutme .aboutme-container .aboutme-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutme .aboutme-container .aboutme-info .aboutme-info-img {
+        width: 200px;
+        /* Ajusta el ancho del contenedor según tus necesidades */
+        height: 200px;
+        /* Ajusta la altura del contenedor según tus necesidades */
+        border-radius: 50%;
+        overflow: hidden;
+        margin:auto; 
+    }
+
+    .aboutme .aboutme-container .aboutme-info .aboutme-info-description {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .aboutme .aboutme-container .aboutme-info .aboutme-info-description p{
+        margin:auto;
+    }
+}
+
+
+@media (max-width: 350px ){
+    .aboutme {
+        max-width: 100vh;
+    }
+    .aboutme .aboutme-container .aboutme-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutme .aboutme-container .aboutme-info .aboutme-info-img {
+        width: 200px;
+        /* Ajusta el ancho del contenedor según tus necesidades */
+        height: 200px;
+        /* Ajusta la altura del contenedor según tus necesidades */
+        border-radius: 50%;
+        overflow: hidden;
+        margin:auto; 
+    }
+
+    .aboutme .aboutme-container .aboutme-info .aboutme-info-description {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .aboutme .aboutme-container .aboutme-info .aboutme-info-description p{
+        margin:auto;
+    }
+}

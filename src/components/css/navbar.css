@@ -1,17 +1,25 @@
-.contenedor-view {
-    padding: 5px 0 0 0;
+.navbar {
+    padding: 5px 0 10px 0;
+    position:sticky;
+    top:0;
+    background-color:#18163d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 2;
 }
 
-.contenedor-view .navbar-container {
+.navbar .navbar-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.contenedor-view .navbar-container .logo{
+.navbar .navbar-container .logo{
     margin:auto 0;
 }
-.contenedor-view .navbar-container .logo .link-home{
+
+
+.navbar .navbar-container .logo .link-home{
     margin:0;
     padding: 0;
     text-decoration: none;
@@ -21,35 +29,38 @@
     background-color:#b4aabe5d;
     border-radius: 10px;
 }
+.navbar .navbar-container .logo .link-home:hover{
+    background-color:#a895bb5d;
+}
 
-.contenedor-view .navbar-container .logo, 
-.contenedor-view .navbar-container .navbar{
+.navbar .navbar-container .logo, 
+.navbar .navbar-container .navbar{
     padding: 10px;
 }
 
 
-.contenedor-view .navbar-container .navbar ul {
+.navbar .navbar-container .navbar ul {
     color:#f8f1ff;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.contenedor-view .navbar-container .navbar ul li,
-.contenedor-view .navbar-container .navbar ul .link-home{
+.navbar .navbar-container .navbar ul li,
+.navbar .navbar-container .navbar ul .link-home{
     color:#f8f1ff;
     display: inline-block;
     margin-right: 30px;
     padding-bottom: 4px;
 }
 
-.contenedor-view .navbar-container .navbar ul li:last-child, 
-.contenedor-view .navbar-container .navbar ul .link-home li:last-child{
+.navbar .navbar-container .navbar ul li:last-child, 
+.navbar .navbar-container .navbar ul .link-home li:last-child{
     margin-right: 0;
 }
 
-.contenedor-view .navbar-container .navbar ul li:hover,
-.contenedor-view .navbar-container .navbar ul .link-home li:hover{
+.navbar .navbar-container .navbar ul li:hover,
+.navbar .navbar-container .navbar ul .link-home li:hover{
     transition: 0.4s;
     color: #b4aabe;
     cursor: pointer;
