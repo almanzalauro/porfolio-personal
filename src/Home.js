@@ -2,7 +2,7 @@ import React from 'react';
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
 import Projects from './components/Projects';
-import Tecnologies from './components/Tecnologies';
+import Technologies from './components/Technologies';
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
       <AboutMe />
       <Education />
       <Projects />
-      <Tecnologies/>
+      <Technologies/>
     </div>
   );
 }

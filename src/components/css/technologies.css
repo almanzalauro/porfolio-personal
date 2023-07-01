@@ -1,0 +1,68 @@
+.technologies .technologies-content{
+    margin:10px 10px;
+}
+.technologies .technologies-content .technologies-content-icon{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    align-items:center;
+    padding:0 10px;
+    flex-wrap: wrap;
+}
+
+.technologies .technologies-content .technologies-content-icon i{
+    font-size: 3rem;
+}
+
+.technologies .technologies-content .technologies-content-icon .fa-html5:hover{
+    color:rgb(245, 92, 21);
+}
+
+.technologies .technologies-content .technologies-content-icon .fa-css3:hover{
+    color:rgb(63, 63, 255);
+}
+
+.technologies .technologies-content .technologies-content-icon .fa-python:hover{
+    color:rgb(235, 255, 57);
+}
+
+.technologies .technologies-content .technologies-content-icon .fa-sass:hover{
+    color:rgb(255, 96, 255);
+}
+
+.technologies .technologies-content .technologies-content-icon .fa-bootstrap:hover{
+    color:rgb(159, 74, 255);
+}
+
+.technologies .technologies-content .technologies-content-icon .fa-git-alt:hover{
+    color:rgb(255, 143, 39);
+}
+
+.technologies .technologies-content .technologies-content-icon .fa-react:hover{
+    color:rgb(66, 179, 255);
+}
+
+
+.technologies .technologies-content .technologies-content-icon i p{
+    font-size: 1rem;
+}
+
+
+@media (min-width:320px) and (max-width:500px){
+    .technologies {
+        max-width: 100vw;
+    }
+
+    .technologies .technologies-content .technologies-content-icon{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+
+@media (max-width: 320px ){
+    .technologies {
+        max-width: 100vw;
+    }
+}
