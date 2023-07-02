@@ -1,20 +1,31 @@
-function Education(){
-    return(
-        <div className="education content">
-            <div className="education-container">
-                <div className="title">
-                    <h2>Educacion</h2>
-                </div>
+import education from '../Data/education.json';
+import EducationItem from './EducationItem';
 
-                <div className="education-info">
-                    asd
-                </div>
+import './css/education.css';
 
-            </div>
+function Projects() {
+  return (
+    <div className="education content">
+      
+      <div id="title-content">
+        <span className="title">
+          <h2>Educación</h2>
+        </span> 
+      </div>
 
-        </div>
-
-    );
+      <div className="educations">
+        {education.map((item, index) => (
+          <EducationItem
+            key={index}
+            logo={item.logo}
+            institucion={item.institucion}
+            carrera={item.carrera}
+            fecha_inicio_fin={item.fecha_inicio_fin}
+          />
+        ))}
+      </div>
+    </div>
+  );
 }
 
-export default Education;
+export default Projects;

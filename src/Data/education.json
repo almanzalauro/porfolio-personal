@@ -1,0 +1,14 @@
+[
+    {
+        "logo":"./ifts.png",
+        "institucion": "Instituto de Formación Técnica Superior 12",
+        "carrera": "Tecnicatura superior en Análisis de sistemas",
+        "fecha_inicio_fin": "2021 - Actualidad "
+    },
+    {
+        "logo":"./UBA.png",
+        "institucion": "Universidad de Buenos Aires",
+        "carrera": "Ingeniería Electrónica",
+        "fecha_inicio_fin": "2018 - Actualidad"
+    }
+]
