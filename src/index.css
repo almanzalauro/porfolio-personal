@@ -11,7 +11,9 @@ body{
     animation: gradient 15s ease infinite;
 }*/
 body{
-  background-color: #201e50;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 4%, rgba(24,22,61,1) 25%, rgba(32,30,80,1) 38%, rgba(28,26,72,1) 49%, rgba(26,24,67,1) 59%, rgba(24,22,61,1) 72%, rgba(2,0,36,1) 91%);
+
 
 }
 #root {
@@ -22,7 +24,9 @@ body{
 .App {
   min-height: 100%; /* Asegura que el contenedor tenga como mínimo el 100% de la altura */
 }
-
+.content{
+  margin:0 15px;
+}
 /*
 @keyframes gradient {
   0% {

@@ -1,6 +1,6 @@
 function ContactMe(){
     return(
-        <div className="contactme">
+        <div className="contactme content">
             <div className="contactme-container">
                 <div className="title">
                     <h2>Contactame</h2>

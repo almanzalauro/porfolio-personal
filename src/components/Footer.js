@@ -1,7 +1,7 @@
 import './css/footer.css';
 function Footer() {
     return (
-        <div className="footer">
+        <div className="footer content">
 
             <div className='footer-content'>
                 <div className="created-by">

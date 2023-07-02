@@ -16,7 +16,7 @@ function ProjectsTotal() {
         </span>
       </div>
 
-      <div className="projects">
+      <div className="projects content">
         {projectstotal.map((item, index) => (
           <ProjectItem
             key={index}

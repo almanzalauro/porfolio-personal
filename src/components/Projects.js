@@ -6,7 +6,7 @@ import './css/projects.css';
 
 function Projects() {
   return (
-    <div className="contenedor-view">
+    <div className="contenedor-view content">
       <div id="title-content">
         <span className="title">
           <h2>Projectos</h2>
