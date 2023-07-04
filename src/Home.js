@@ -7,10 +7,10 @@ import Technologies from './components/Technologies';
 function Home() {
   return (
     <div className="App-home">
-      <AboutMe />
-      <Education />
+      <AboutMe id="aboutme"/>
+      <Education id="education"/>
       <Projects />
-      <Technologies/>
+      <Technologies id="contact"/>
     </div>
   );
 }

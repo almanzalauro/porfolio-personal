@@ -1,18 +1,18 @@
 .aboutme .aboutme-container .aboutme-info {
     display: flex;
     justify-content: space-around;
-    gap:20px;
+    gap:10px;
     
 }
 
 .aboutme .aboutme-container .aboutme-info .aboutme-info-img {
-    width: 300px;
+    width: 250px;
     /* Ajusta el ancho del contenedor según tus necesidades */
-    height: 300px;
+    height: 250px;
     /* Ajusta la altura del contenedor según tus necesidades */
     border-radius: 50%;
     overflow: hidden;
-    margin:auto;
+    margin: auto;
 }
 
 .aboutme .aboutme-container .aboutme-info .aboutme-info-img img {

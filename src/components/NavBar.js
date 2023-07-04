@@ -15,19 +15,17 @@ function NavBar() {
             <div className="navbar-container">
 
                 <div className="logo ">
-                <Link to="/" className="link-home"> Almanza Lauro</Link>
+                    <Link to="/" className="link-home"> Almanza Lauro</Link>
                 </div>
 
                 <button id="button-menu" onClick={toggleMenu}><i class="fa-solid fa-bars"></i></button>
 
                 <div className={`nav ${isOpen ? 'visible' : ''}`}>
                     <button id="button-menu-cerrar" onClick={toggleMenu}><i class="fa-solid fa-xmark"></i></button>
-                    
+
                     <ul>
                         <Link to="/" className="link-home"><li><i className="fas fa-home"></i> Inicio</li></Link>
-                        <li><i className="fas fa-user"></i> Sobre Mi</li>
-                        <li><i className="fas fa-graduation-cap"></i> Estudios</li>
-                        <li><i className="fas fa-folder-open"></i> Proyectos</li>
+                        <Link to="/projectsall" className="link-home"><li><i className="fas fa-folder-open"></i> Proyectos</li></Link>
                         <li><i className="fas fa-envelope"></i> Contacto</li>
                     </ul>
                 </div>

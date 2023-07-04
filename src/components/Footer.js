@@ -5,8 +5,9 @@ function Footer() {
 
             <div className='footer-content'>
                 <div className="created-by">
-                    <p>Lauro almanza 2023</p>
-                    
+                    <p>Lauroalmanza23@gmail.com</p>
+                    <p className="author">Lauro almanza 2023</p>
+                   
                 </div>
 
                 <div className="social-links">

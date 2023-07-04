@@ -12,7 +12,7 @@ function AboutMe(){
                 <div className="aboutme-info">
 
                     <div className='aboutme-info-img'>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg" alt="img-perfil"/>
+                        <img src="./perfil.jpeg" alt="img-perfil"/>
                     </div>
 
                     <div className="aboutme-info-description">
